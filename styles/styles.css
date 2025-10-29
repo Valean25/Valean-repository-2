@@ -1,0 +1,30 @@
+/* Global horror theme */
+body {
+  background: linear-gradient(to bottom, #2b0000, #000000);
+  background-image: url(/assets/IndexBG.jpg);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero title */
+.hero-title {
+  font-size: 3rem;
+  color: red;
+  text-shadow: 0 0 10px black;
+  margin-top: 100px;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: red !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px red;
+}

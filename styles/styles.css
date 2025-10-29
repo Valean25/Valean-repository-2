@@ -1,5 +1,5 @@
 /* ========== GLOBAL HORROR THEME ========== */
-body {
+.body {
   background: linear-gradient(to bottom, #2b0000, #000000);
   background-image: url(/assets/Images/IndexBG.jpg);
   background-size: cover;

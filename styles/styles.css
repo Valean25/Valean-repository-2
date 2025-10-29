@@ -75,3 +75,21 @@ body {
   transform: scale(1.02);
   box-shadow: 0 0 15px red;
 }
+
+/* ------------Clips Page------------ */
+
+/* Carousel video styling */
+.clip-video {
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid red;
+  box-shadow: 0 0 20px black;
+}
+
+/* Optional: image fallback styling */
+.clip-img {
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid red;
+  box-shadow: 0 0 20px black;
+}

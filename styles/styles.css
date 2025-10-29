@@ -28,3 +28,31 @@ body {
 .nav-link:hover {
   text-shadow: 0 0 5px red;
 }
+
+
+/* -------------- Movies Page ------------- */
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  color: red;
+  text-shadow: 0 0 8px black;
+  margin-bottom: 40px;
+}
+
+/* Movie cards */
+.movie-card {
+  border: 2px solid red;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px red;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}

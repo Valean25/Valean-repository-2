@@ -1,7 +1,7 @@
 /* Global horror theme */
 body {
   background: linear-gradient(to bottom, #2b0000, #000000);
-  background-image: url(/assets/IndexBG.jpg);
+  background-image: url(/assets/Images/IndexBG.jpg);
   color: white;
   font-family: 'Arial', sans-serif;
 }

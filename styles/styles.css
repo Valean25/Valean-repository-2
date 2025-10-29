@@ -1,6 +1,7 @@
 /* ========== GLOBAL HORROR THEME ========== */
 body {
-  background: linear-gradient(to bottom, #2b0000, #000000), url(/assets/Images/IndexBG.jpg);
+  background: linear-gradient(to bottom, #2b0000, #000000);
+  background-image: url(/assets/Images/IndexBG.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

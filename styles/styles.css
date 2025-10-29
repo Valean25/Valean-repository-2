@@ -10,7 +10,7 @@ body {
 }
 
 /* (Homepage) */
-.hero-title {
+.title {
   font-size: 3rem;
   color: red;
   text-shadow: 0 0 10px black;

@@ -1,12 +1,14 @@
-/* Global horror theme */
+/* ========== GLOBAL HORROR THEME ========== */
 body {
-  background: linear-gradient(to bottom, #2b0000, #000000);
-  background-image: url(/assets/Images/IndexBG.jpg);
+  background: linear-gradient(to bottom, #2b0000, #000000), url(/assets/Images/IndexBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   font-family: 'Arial', sans-serif;
 }
 
-/* Hero title */
+/* Hero title (Homepage) */
 .hero-title {
   font-size: 3rem;
   color: red;
@@ -14,7 +16,7 @@ body {
   margin-top: 100px;
 }
 
-/* Navbar styling */
+/* Navbar styling (Shared across all pages) */
 .navbar {
   background-color: black;
 }
@@ -29,10 +31,7 @@ body {
   text-shadow: 0 0 5px red;
 }
 
-
-/* -------------- Movies Page ------------- */
-
-/* Section title */
+/* ========== SHARED SECTION TITLE ========== */
 .section-title {
   font-size: 2.5rem;
   color: red;
@@ -40,7 +39,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* Movie cards */
+/* ========== MOVIES PAGE ========== */
 .movie-card {
   border: 2px solid red;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -55,4 +54,24 @@ body {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
+}
+
+/* ========== ABOUT PAGE ========== */
+.about-card .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.about-card .card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px red;
 }

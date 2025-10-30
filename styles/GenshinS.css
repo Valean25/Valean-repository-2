@@ -1,0 +1,47 @@
+body {
+    /* Frame 4 */
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #66A6CE;
+}
+.Arrow1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 721px;
+    top: 933px;
+    border: 7px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.Rectangle16 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 670px;
+    top: 924px;
+}
+.Rectangle12 {
+    position: absolute;
+    width: 1350px;
+    height: 632px;
+    left: 46px;
+    top: 79px;
+
+    background: url(wp15780786-genshin-impact-version-luna-wallpapers.jpg);
+}
+.text-top-10-genshin-characters {
+    position: absolute;
+    width: 1350px;
+    height: 222px;
+    left: 45px;
+    top: 711px;
+    font-family: 'Borel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 128px;
+    text-align: center;
+    color: #FFFFFF;
+}

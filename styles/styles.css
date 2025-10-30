@@ -1,0 +1,155 @@
+/* ========== GLOBAL HORROR THEME ========== */
+.body {
+  background: linear-gradient(to bottom, #2b0000, #000000);
+  background-image: url(/assets/Images/IndexBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* (Homepage) */
+.title {
+  font-size: 3rem;
+  color: red;
+  text-shadow: 0 0 10px black;
+  margin-top: 100px;
+  padding: 200px;
+}
+
+/* Navbar styling (Shared across all pages) */
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: red !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px red;
+}
+
+/* ========== SHARED SECTION TITLE ========== */
+.section-title {
+  font-size: 2.5rem;
+  color: red;
+  text-shadow: 0 0 8px black;
+  margin-bottom: 40px;
+}
+
+/* ========== MOVIES PAGE ========== */
+.movie-card {
+  border: 2px solid red;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px red;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ========== ABOUT PAGE ========== */
+.about-card .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.about-card .card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px red;
+}
+
+/* ------------Clips Page------------ */
+
+/* Carousel video styling */
+.clip-video {
+  height: 650px;
+  object-fit: cover;
+  border: 5px solid red;
+  box-shadow: 0 0 20px black;
+}
+
+.clip-img {
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid red;
+  box-shadow: 0 0 20px black;
+}
+
+/* --------------------VS PAGE------------------ */
+
+/* ========== VS PAGE STYLING ========== */
+.vs-page {
+  background: url(/assets/Images/LunaHorrorBG.png) no-repeat center center fixed;
+  background-size:cover;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.top-title {
+  font-size: 4rem;
+  color: hotpink;
+  margin-top: 60px;
+  text-shadow: 0 0 10px black;
+}
+
+.horror-title {
+  font-size: 3rem;
+  color: red;
+  text-shadow: 0 0 8px black;
+}
+
+.anime-title {
+  font-size: 3rem;
+  color: cyan;
+  text-shadow: 0 0 8px black;
+}
+
+.vs-title {
+  font-size: 3rem;
+  color: black;
+  text-shadow: 0 0 5px white;
+}
+
+.red-link {
+  color: red !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blue-link {
+  color: cyan !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px red;
+}
+
+.haunted-house {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  opacity: 0.8;
+}

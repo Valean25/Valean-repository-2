@@ -10,7 +10,7 @@
 <body class="clipsbg">
 
   <div class="container my-5">
-    <h2 class="section-title text-center">Sneak Peak</h2>
+    <h2 class="section-title text-center">Sneak Peek</h2>
 
     <div id="horrorCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
       <div class="carousel-inner">
@@ -18,7 +18,7 @@
         <!-- Clip 1 (active) -->
         <div class="carousel-item active">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/The_Exorcist.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -31,7 +31,7 @@
         <!-- Repeat for each clip -->
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/Hereditary.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -43,7 +43,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/The Conjuring - Official Main Trailer [HD].mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -55,7 +55,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/The Shining - Official Trailer [1980] HD.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -67,7 +67,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/The Texas Chainsaw Massacre (1974)  - Original Trailer (4K).mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -79,7 +79,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/The Ring - best scene as a horror movie.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -91,7 +91,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/halloween.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -103,7 +103,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/sinister.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -115,7 +115,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/Insidious.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -127,7 +127,7 @@
 
         <div class="carousel-item">
           <div class="position-relative">
-            <video class="d-block w-100 clip-video" autoplay muted loop playsinline>
+            <video class="d-block w-100 clip-video" autoplay loop playsinline>
               <source src="/assets/Video/IT - Official Teaser Trailer.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -160,5 +160,27 @@
   </nav>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- 🎧 Audio Logic -->
+  <script>
+    const carousel = document.getElementById('horrorCarousel');
+    const videos = carousel.querySelectorAll('video');
+
+    function activateCurrentVideo() {
+      videos.forEach(video => {
+        video.muted = true;
+        video.pause();
+      });
+
+      const activeItem = carousel.querySelector('.carousel-item.active video');
+      if (activeItem) {
+        activeItem.muted = false;
+        activeItem.play();
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', activateCurrentVideo);
+    carousel.addEventListener('slid.bs.carousel', activateCurrentVideo);
+  </script>
 </body>
 </html>

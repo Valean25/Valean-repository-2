@@ -1,14 +1,13 @@
-/* ---------- Global Backgrounds ---------- */
-.genshin-bg,
-.about-bg {
+.genshin-bg {
+    justify-content: space-between;
   background-color: #66A6CE;
-  font-family: 'Segoe UI', sans-serif;
+    /* Soft blue */
   margin: 0;
   padding: 0;
   image-rendering: optimizeQuality;
 }
 
-/* ---------- Banner Section ---------- */
+/* Responsive Banner Section */
 .Rectangle12 {
   background-image: url('/assets/Images/wp15780786-genshin-impact-version-luna-wallpapers.jpg');
   background-size: cover;
@@ -18,7 +17,7 @@
   margin-bottom: 2rem;
 }
 
-/* ---------- Title & Subtitle ---------- */
+/* Title Styling */
 .genshin-title {
   margin-top: 3rem;
   font-family: 'Borel', cursive;
@@ -28,6 +27,7 @@
   margin-bottom: 1rem;
 }
 
+/* Subtitle Styling */
 .genshin-subtitle {
   font-family: 'Brush Script MT', cursive;
   font-size: 2rem;
@@ -36,7 +36,7 @@
   margin-bottom: 1rem;
 }
 
-/* ---------- Animated Arrow ---------- */
+/* Animated Down Arrow */
 .arrow-down {
   font-size: 2rem;
   color: #FFFFFF;
@@ -46,18 +46,109 @@
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
 }
 
-/* ---------- Character Grid Cards ---------- */
+/* Optional: Card Hover Effect for Character List */
 .character-card {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 4px 3px 10px 3px rgba(0, 0, 5, 0.5);
+  align-items: center;
+  transition: transform 0.3s ease, shadow 0.3s ease;
+  background-color: #00000024;
+    box-shadow: 4px 3px 10px 3px rgba(0, 0, 5, 0.5); /* horizontal, vertical, blur, spread */
   text-align: center;
-  border-radius: 8px;
-  padding: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px;
+}
+
+.Image-Columbina {
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+    object-fit: cover;
+}
+
+.Image-Durin {
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Nicole {
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+    object-fit:scale-down;
+}
+
+.Image-Alice {
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Alice {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Sandrone {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Aino {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Flins {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Lauma {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Varka {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
+
+.Image-Nefer {
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
 }
 
 .character-card:hover {
@@ -73,24 +164,23 @@
   height: auto;
   object-fit: cover;
   margin: 0 auto;
-  display: block;
 }
 
 /* ---------- Utility Alignment ---------- */
 .text-left {
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 50px;
 }
 
-/* ---------- About Page Cards ---------- */
-.about-title {
-  font-size: 2.5rem;
-  color: #003366;
-  font-weight: bold;
+.text-center {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-left: 50px;
 }
 
+.text-right {
+  text-align: right;
+  margin-left: 50px;
+}
 .about-card {
   background-color: #ffffff;
   border-radius: 12px;

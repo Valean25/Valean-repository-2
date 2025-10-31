@@ -1,4 +1,5 @@
 .genshin-bg {
+    justify-content: space-between;
     background-color: #66A6CE;
     /* Soft blue */
     margin: 0;
@@ -32,7 +33,6 @@
     font-size: 2rem;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 1rem;
 }
 
 /* Animated Down Arrow */
@@ -57,6 +57,7 @@
 
 /* Optional: Card Hover Effect for Character List */
 .character-card {
+    align-items: center;
     transition: transform 0.3s ease, shadow 0.3s ease;
     background-color: #00000024;
     box-shadow: 4px 3px 10px 3px rgba(0, 0, 5, 0.5); /* horizontal, vertical, blur, spread */
@@ -65,25 +66,22 @@
 }
 
 .Image-Columbina {
-    justify-content: space-evenly;
     margin-left: 100px;
     width: 320px;
     height: 480px;
     object-fit: cover;
 }
 .Image-Durin {
-    justify-content: space-evenly;
     margin-left: 100px;
     width: 320px;
     height: 480px;
     object-fit: cover;
 }
 .Image-Nicole {
-    justify-content: space-evenly;
     margin-left: 100px;
     width: 320px;
     height: 480px;
-    object-fit: cover;
+    object-fit:scale-down;
 }
 .Image-Alice {
     justify-content: space-evenly;
@@ -149,6 +147,14 @@
 }
 
 .text-left {
-    justify-content: flex-start;
-    margin-left: 150px;
+text-align: left;
+    margin-left: 50px;
+}
+.text-center {
+text-align: center;
+    margin-left: 50px;
+}
+.text-right {
+text-align: right;
+    margin-left: 50px;
 }

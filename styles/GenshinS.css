@@ -112,3 +112,47 @@
   font-size: 1rem;
   color: #333333;
 }
+
+
+/* ----------GenClips---------- */
+
+/* Background and Typography */
+.clip-bg {
+  background-color: #66A6CE;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Title */
+.clip-title {
+  font-size: 2.5rem;
+  color: #003366;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Clip Card Styling */
+.clip-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Clip Heading */
+.clip-heading {
+  font-size: 1.25rem;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* Clip Text */
+.clip-text {
+  font-size: 1rem;
+  color: #333333;
+}

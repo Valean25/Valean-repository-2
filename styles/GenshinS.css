@@ -1,4 +1,4 @@
-body {
+.genshin-bg{
   background-color: #66A6CE; /* Soft blue */
   margin: 0;
   padding: 0;
@@ -52,9 +52,16 @@ body {
   background-color: #f8f9fa;
   border-radius: 8px;
   padding: 1rem;
+  width: 320px;
   text-align: center;
 }
 
+.Image-character {
+margin: 100px;
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+}
 .character-card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #0059b3;

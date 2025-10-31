@@ -16,7 +16,8 @@
 }
 
 /* Title Styling */
-.text-top-10-genshin-characters {
+.genshin-title {
+    margin-top: 3rem ;
   font-family: 'Borel', cursive;
   font-size: 3rem;
   text-align: center;
@@ -48,16 +49,17 @@
 
 /* Optional: Card Hover Effect for Character List */
 .character-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  transition: transform 0.3s ease, shadow 0.3s ease;
+  background-color: #00000038;
+  border-radius: 3px;
   padding: 1rem;
   width: 320px;
   text-align: center;
 }
 
 .Image-character {
-margin: 100px;
+    justify-content:space-evenly;
+margin-left: 100px;
   width: 320px;
   height: 480px;
   object-fit: cover;
@@ -67,4 +69,8 @@ margin: 100px;
   box-shadow: 0 0 15px #0059b3;
   color: #0059b3;
   font-weight: bold;
+}
+
+.text{
+
 }

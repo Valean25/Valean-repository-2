@@ -163,7 +163,7 @@ text-align: right;
   border-radius: 12px;
   padding: 1rem;
   transform: scale(1.02);
-  box-shadow: 0 0 15px blue;
+  box-shadow: 0 0 10px blue;
 }
 
 .about-heading {

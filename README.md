@@ -1,6 +1,6 @@
-// Jonathan, Sam. 
+// Jonathan Ramirez & Sammer Saqa
 
-//Date Revised: This is the last day you saved. 
+// Date Revised: This is the last day you saved. 
 
 // Favorite Top 10 websites
 
@@ -11,10 +11,10 @@
 
 # Top 10 Horror & Anime
 
-## 🎯 Project Overview
+## Project Overview
 This site presents a modular, media-rich showcase of our Top 10 horror and anime picks. It was built using Bootstrap 5, custom CSS, and responsive design principles. Each section includes curated media, commentary, and interactive elements to highlight what makes each item iconic.
 
-## 👤 Contributors
+## Contributors
 
 ### Sammer
 - Built the **Horror Section**, including:
@@ -29,12 +29,13 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 - Documented all contributions and protected grading boundaries
 
 ### Jonathan Ramirez
-- Currently working on the **Anime Section**
-  - Will include Top 10 anime picks
-  - Media embeds and commentary
-  - Responsive layout and styling
+- Built the **Anime Section**, including:
+  - Responsive layout for Top 10 character showcase
+  - Navigation links and unified site styling
+  - Preparing media embeds and commentary for each pick
+  - Collaborating on shared structure and visual consistency
 
-## 🧱 Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - Bootstrap 5

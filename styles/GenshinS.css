@@ -154,11 +154,9 @@ text-align: left;
 text-align: center;
     margin-left: 50px;
 }
-<<<<<<< HEAD
 .text-right {
 text-align: right;
     margin-left: 50px;
-=======
 
 .about-card {
   background-color: #ffffff;
@@ -180,5 +178,4 @@ text-align: right;
 .about-text {
   font-size: 1rem;
   color: #333333;
->>>>>>> 1331a3eb7bf12f784943652d7f3bed04ce5f5c2d
 }

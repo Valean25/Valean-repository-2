@@ -64,14 +64,83 @@
     border-radius: 5px;
 }
 
-.Image-character {
+.Image-Columbina {
     justify-content: space-evenly;
     margin-left: 100px;
     width: 320px;
     height: 480px;
     object-fit: cover;
 }
-
+.Image-Durin {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Nicole {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Alice {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Alice {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Sandrone {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Aino {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Flins {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Lauma {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Varka {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
+.Image-Nefer {
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
+}
 .character-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px #0059b3;

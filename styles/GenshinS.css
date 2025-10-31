@@ -1,76 +1,85 @@
-.genshin-bg{
-  background-color: #66A6CE; /* Soft blue */
-  margin: 0;
-  padding: 0;
-  image-rendering: optimizeQuality;
+.genshin-bg {
+    background-color: #66A6CE;
+    /* Soft blue */
+    margin: 0;
+    padding: 0;
+    image-rendering: optimizeQuality;
 }
 
 /* Responsive Banner Section */
 .Rectangle12 {
-  background-image: url('/assets/Images/wp15780786-genshin-impact-version-luna-wallpapers.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 60vh;
-  margin-bottom: 2rem;
+    background-image: url('/assets/Images/wp15780786-genshin-impact-version-luna-wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
 }
 
 /* Title Styling */
 .genshin-title {
-    margin-top: 3rem ;
-  font-family: 'Borel', cursive;
-  font-size: 3rem;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-family: 'Borel', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 
 /* Subtitle Styling */
 .genshin-subtitle {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 2rem;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 1rem;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 
 /* Animated Down Arrow */
 .arrow-down {
-  font-size: 2rem;
-  color: #FFFFFF;
-  text-align: center;
-  animation: bounce 1.5s infinite;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    animation: bounce 1.5s infinite;
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
 }
 
 /* Optional: Card Hover Effect for Character List */
 .character-card {
-  transition: transform 0.3s ease, shadow 0.3s ease;
-  background-color: #00000038;
-  border-radius: 3px;
-  padding: 1rem;
-  width: 320px;
-  text-align: center;
+    transition: transform 0.3s ease, shadow 0.3s ease;
+    background-color: #00000024;
+    box-shadow: 4px 3px 10px 3px rgba(0, 0, 5, 0.5); /* horizontal, vertical, blur, spread */
+    text-align: center;
+    border-radius: 5px;
 }
 
 .Image-character {
-    justify-content:space-evenly;
-margin-left: 100px;
-  width: 320px;
-  height: 480px;
-  object-fit: cover;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    width: 320px;
+    height: 480px;
+    object-fit: cover;
 }
+
 .character-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #0059b3;
-  color: #0059b3;
-  font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0059b3;
+    color: #0059b3;
+    font-weight: bold;
 }
 
-.text{
-
+.text-left {
+    justify-content: flex-start;
+    margin-left: 150px;
 }

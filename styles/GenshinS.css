@@ -68,60 +68,48 @@
 }
 
 .Image-Columbina {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   width: 320px;
   height: 480px;
     object-fit: cover;
 }
 
 .Image-Durin {
-  margin-left: 100px;
+  margin-left: 40px;
   width: 320px;
   height: 480px;
   object-fit: cover;
 }
 
 .Image-Nicole {
-  margin-left: 100px;
-  width: 320px;
+  margin-left: 60px;
+  width: 320;
   height: 480px;
-    object-fit:scale-down;
-}
+    object-fit: cover;
 
-.Image-Alice {
-  margin-left: 100px;
-  width: 320px;
-  height: 480px;
-  object-fit: cover;
 }
-
 .Image-Alice {
   justify-content: space-evenly;
-  margin-left: 100px;
   width: 320px;
   height: 480px;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .Image-Sandrone {
-  justify-content: space-evenly;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 320px;
   height: 480px;
-  object-fit: cover;
+  object-fit:cover ;
 }
 
 .Image-Aino {
-  justify-content: space-evenly;
-  margin-left: 100px;
-  width: 320px;
+margin-left: 65px;  width: 320px;
   height: 480px;
   object-fit: cover;
 }
 
 .Image-Flins {
   justify-content: space-evenly;
-  margin-left: 100px;
   width: 320px;
   height: 480px;
   object-fit: cover;
@@ -129,7 +117,6 @@
 
 .Image-Lauma {
   justify-content: space-evenly;
-  margin-left: 100px;
   width: 320px;
   height: 480px;
   object-fit: cover;
@@ -137,7 +124,6 @@
 
 .Image-Varka {
   justify-content: space-evenly;
-  margin-left: 100px;
   width: 320px;
   height: 480px;
   object-fit: cover;
@@ -145,7 +131,6 @@
 
 .Image-Nefer {
   justify-content: space-evenly;
-  margin-left: 100px;
   width: 320px;
   height: 480px;
   object-fit: cover;
@@ -169,17 +154,17 @@
 /* ---------- Utility Alignment ---------- */
 .text-left {
   text-align: left;
-  margin-left: 50px;
+  font-family: 'borel', cursive;
 }
 
 .text-center {
   text-align: center;
-  margin-left: 50px;
+    font-family: 'borel', cursive;
 }
 
 .text-right {
   text-align: right;
-  margin-left: 50px;
+  font-family: 'borel', cursive;
 }
 .about-card {
   background-color: #ffffff;
@@ -251,4 +236,7 @@
   border-radius: 8px;
   margin-bottom: 0.75rem;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.row{
+  margin: 50px;
 }

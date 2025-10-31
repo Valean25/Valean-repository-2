@@ -2,9 +2,9 @@
 
  Date Revised: 10/31/2025
 
- Favorite Top 10 websites
+ Favorite Top 10 Horror Movies and Genshin Characters
 
- We built and styled the entire horror section of our site, including the horror homepage, Top 10 movie layout, and sneak peek carousel with labeled clips. I created a unified landing page that connects horror and anime themes, implemented a responsive navbar and footer across all pages, and ensured full responsiveness for desktop and tablet. I also documented my contributions and helped scaffold Jonathan’s anime section for consistency
+ We built and styled the entire horror section of our site, including the horror homepage, Top 10 movie layout, and sneak peek carousel with labeled clips. I created a unified landing page that connects horror and anime themes, implemented a responsive navbar and footer across all pages, and ensured full responsiveness for desktop, tablet and mobile. I also documented my contributions and helped scaffold Jonathan’s anime section for consistency.
 
  Peer Review : 
 
@@ -18,7 +18,7 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 
 ## Contributors
 
-### Sammer
+### Sammer Saqa
 - Built the **Horror Section**, including:
   - Horror homepage
   - Sneak Peek carousel with labeled clips
@@ -29,6 +29,8 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 - Ensured **full responsiveness** for desktop and tablet
 - Added **custom styling**, transitions, and captions
 - Documented all contributions and protected grading boundaries
+- In addition I also did the **about and clips pages of Anime Section**
+  I was only able to get 6/10 videos, because I couldn't find the others to download..
 
 ### Jonathan Ramirez
 - Built the **Anime Section**, including:
@@ -43,5 +45,6 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 - Bootstrap 5
 - Custom media embeds (video and audio)
 - Responsive design with mobile-first layout
+- 4K Video Downloader+
 
 https://www.figma.com/design/Cv5ve5DOEbPjovktOYhPIs/Top-10-Scariest-Movies?node-id=0-1&t=fW8Baf3vzlXMqBKw-1

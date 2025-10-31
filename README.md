@@ -29,7 +29,7 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 - Ensured **full responsiveness** for desktop and tablet
 - Added **custom styling**, transitions, and captions
 - Documented all contributions and protected grading boundaries
-- In addition I also did the about and clips pages of **Anime Section**
+- In addition I also did the **about and clips pages of Anime Section**
   I was only able to get 6/10 videos, because I couldn't find the others to download..
 
 ### Jonathan Ramirez

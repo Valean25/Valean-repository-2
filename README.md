@@ -4,7 +4,7 @@
 
  Favorite Top 10 websites
 
- We built and styled the entire horror section of our site, including the horror homepage, Top 10 movie layout, and sneak peek carousel with labeled clips. I created a unified landing page that connects horror and anime themes, implemented a responsive navbar and footer across all pages, and ensured full responsiveness for desktop and tablet. I also documented my contributions and helped scaffold Jonathan’s anime section for consistency
+ We built and styled the entire horror section of our site, including the horror homepage, Top 10 movie layout, and sneak peek carousel with labeled clips. I created a unified landing page that connects horror and anime themes, implemented a responsive navbar and footer across all pages, and ensured full responsiveness for desktop and tablet. I also documented my contributions and helped scaffold Jonathan’s anime section for consistency.
 
  Peer Review : 
 

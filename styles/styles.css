@@ -36,6 +36,7 @@
 
 .nav-link:hover {
   text-shadow: 0 0 5px red;
+  box-shadow: 0 0 30px red;
 }
 
 /* ========== SHARED SECTION TITLE ========== */
@@ -48,13 +49,12 @@
 
 /* ========== MOVIES PAGE ========== */
 .movie-card {
-  border: 2px solid red;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .movie-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 15px red;
+  box-shadow: 0 0 30px red;
 }
 
 .card-title {
@@ -106,6 +106,7 @@
   object-fit: cover;
   border: 5px solid red;
   box-shadow: 0 0 20px black;
+  
 }
 
 .clip-img {
@@ -149,6 +150,7 @@
   font-size: 3rem;
   color: cyan;
   text-shadow: 0 0 8px black;
+  
 }
 
 .vs-title {

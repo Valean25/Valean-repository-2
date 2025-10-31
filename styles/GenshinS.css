@@ -177,7 +177,81 @@
   margin-left: 50px;
 }
 
+<<<<<<< HEAD
 .text-right {
   text-align: right;
   margin-left: 50px;
 }
+=======
+.about-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  transform: scale(1.02);
+  box-shadow: 0 0 15px blue;
+}
+
+.about-heading {
+  font-size: 1.25rem;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: lowercase;
+  text-align: center; 
+}
+
+.about-text {
+  font-size: 1rem;
+  color: #333333;
+}
+
+
+/* ----------GenClips---------- */
+
+/* Background and Typography */
+.clip-bg {
+  background-color: #66A6CE;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Title */
+.clip-title {
+  font-size: 2.5rem;
+  color: #003366;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Clip Card Styling */
+.clip-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Clip Heading */
+.clip-heading {
+  font-size: 1.25rem;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* Clip Text */
+.clip-text {
+  font-size: 1rem;
+  color: #333333;
+}
+
+.clip-video {
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+>>>>>>> 930d9eb716f3fd934015848891382e0f93f0f27c

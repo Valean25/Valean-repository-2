@@ -45,5 +45,6 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 - Bootstrap 5
 - Custom media embeds (video and audio)
 - Responsive design with mobile-first layout
+- 4K Video Downloader+
 
 https://www.figma.com/design/Cv5ve5DOEbPjovktOYhPIs/Top-10-Scariest-Movies?node-id=0-1&t=fW8Baf3vzlXMqBKw-1

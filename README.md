@@ -18,7 +18,7 @@ This site presents a modular, media-rich showcase of our Top 10 horror and anime
 
 ## Contributors
 
-### Sammer
+### Sammer Saqa
 - Built the **Horror Section**, including:
   - Horror homepage
   - Sneak Peek carousel with labeled clips
